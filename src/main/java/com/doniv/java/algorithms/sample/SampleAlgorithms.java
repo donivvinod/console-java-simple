@@ -1,5 +1,7 @@
 package com.doniv.java.algorithms.sample;
 
+import com.doniv.java.algorithms.sample.bubblesort.BallSorterBubbleSorting;
+
 public class SampleAlgorithms {
      
      private static AlgorithmDemo algoDemo;

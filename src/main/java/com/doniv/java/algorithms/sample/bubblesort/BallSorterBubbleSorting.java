@@ -1,6 +1,7 @@
-package com.doniv.java.algorithms.sample;
+package com.doniv.java.algorithms.sample.bubblesort;
 
 import com.doniv.java.algorithms.enumeration.SortOrder;
+import com.doniv.java.algorithms.sample.AlgorithmDemo;
 import com.doniv.java.algorithms.util.CompareUtils;
 
 
