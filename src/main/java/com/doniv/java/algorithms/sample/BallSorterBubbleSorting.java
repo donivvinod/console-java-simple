@@ -7,13 +7,8 @@ import com.doniv.java.algorithms.util.CompareUtils;
 /** 
  * This is a sample program to demonstrate how to use algorithms
  *  */
-public class BallSorter {
-    public static void main(String... argvs) {
-        BallSorter sorter = new BallSorter();
-        System.out.println("*********** DEMO BUBBLE SORT ALGORITHM **********");
-        sorter.demoBubbleSort();
-        System.out.println("*********** END BUBBLE SORT ALGORITHM **********");
-    }
+public class BallSorterBubbleSorting implements AlgorithmDemo{
+  
 
     /**
      * Bubble Sort Algorithm to sort a set of Balls in an Array.
@@ -29,7 +24,8 @@ public class BallSorter {
      *           Basket 5 : Ball # 7
      *           Basket 6 : Ball # 3         
      */
-    public void demoBubbleSort() {
+    @Override
+    public void demo() {
         System.out.println("Bubble Sort Algorithm to sort a set of Balls in an Array.");
         System.out.println("Rules");
         System.out.println("1. The balls are all placed in different baskets. One ball in one basket");        
