@@ -1,12 +1,9 @@
-# desktop-java-simple
+# Sample Algorithms
 
-# Developer Workspace
+The java programs in this repo help to demonstrate the various algorithms. 
+Algorithms covered as of now are 
+1. Bubble Sort Algorithm.
 
-[![Contribute](http://beta.codenvy.com/factory/resources/codenvy-contribute.svg)](http://beta.codenvy.com/f?id=omriatu352kkthua)
-
-# Recipe
-
-FROM [codenvy/ubuntu_jdk8](https://hub.docker.com/r/codenvy/ubuntu_jdk8/)
 
 # Commands
 
@@ -16,4 +13,4 @@ FROM [codenvy/ubuntu_jdk8](https://hub.docker.com/r/codenvy/ubuntu_jdk8/)
 
 # App output
 
-App output is streamed into a console. Note that if your app expects user input, do not use command but execute jars in the terminal directly.
+App output is streamed into a console. 
