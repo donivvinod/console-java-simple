@@ -6,7 +6,7 @@ import com.doniv.java.algorithms.util.CompareUtils;
 
 
 /** 
- * This is a sample program to demonstrate how to use algorithms
+ * This is a sample program to demonstrate how to sort using Bubble Sorting
  *  */
 public class BallSorterBubbleSorting implements AlgorithmDemo{
   
