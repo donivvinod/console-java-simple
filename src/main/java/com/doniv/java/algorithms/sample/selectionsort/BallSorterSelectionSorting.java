@@ -61,10 +61,9 @@ public class BallSorterSelectionSorting implements AlgorithmDemo{
      * Method to return the sorted balls based on the sort order using selection sort
      */
     public int[] returnSortedBallsWithSelectionSort(int[] baskets, SortOrder sortOrder) {
-        int sortedIndexPosition = 0;
         int idx = 0;
         List<Integer> basketsList = Arrays.stream(baskets).boxed().collect(Collectors.toList());
-        for (int k = sortedIndexPosition; k < baskets.length; k++) {
+        for (int sortedIndexPosition = 0; sortedIndexPosition < basketsList.size(); sortedIndexPosition++) {
             if(sortOrder.name().equals(SortOrder.ASCENDING.name())) {
                 idx = IntStream.range(sortedIndexPosition,basketsList.size())
                 .reduce((i,j) -> basketsList.get(i) > basketsList.get(j) ? j : i)
@@ -75,7 +74,6 @@ public class BallSorterSelectionSorting implements AlgorithmDemo{
                 .getAsInt();
             }
             Collections.swap(basketsList, sortedIndexPosition, idx);
-            sortedIndexPosition++;
         }
         
         return basketsList.stream().mapToInt(Integer::intValue).toArray();
