@@ -1,6 +1,7 @@
 package com.doniv.java.algorithms.sample;
 
 import com.doniv.java.algorithms.sample.bubblesort.BallSorterBubbleSorting;
+import com.doniv.java.algorithms.sample.insertionsort.BallSorterInsertionSort;
 import com.doniv.java.algorithms.sample.selectionsort.BallSorterSelectionSorting;
 
 public class SampleAlgorithms {
@@ -17,5 +18,11 @@ public class SampleAlgorithms {
         algoDemo = new BallSorterSelectionSorting();
         algoDemo.demo();
         System.out.println("*********** END SELECTION SORT ALGORITHM **********");
+        
+        
+        System.out.println("*********** DEMO INSERTION SORT ALGORITHM **********");
+        algoDemo = new BallSorterInsertionSort();
+        algoDemo.demo();
+        System.out.println("*********** END INSERTION SORT ALGORITHM **********");
     }
 }
