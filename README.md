@@ -5,6 +5,7 @@ Algorithms covered as of now are
 1. Bubble Sort Algorithm.
 2. Selection Sort Algorithm.
 3. Insertion Sort Algorithm.
+4. Binary Search Algorithm.
 
 # Commands
 

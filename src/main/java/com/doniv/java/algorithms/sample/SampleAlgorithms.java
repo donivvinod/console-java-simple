@@ -1,5 +1,6 @@
 package com.doniv.java.algorithms.sample;
 
+import com.doniv.java.algorithms.sample.binarysearch.BinarySearch;
 import com.doniv.java.algorithms.sample.bubblesort.BallSorterBubbleSorting;
 import com.doniv.java.algorithms.sample.insertionsort.BallSorterInsertionSort;
 import com.doniv.java.algorithms.sample.selectionsort.BallSorterSelectionSorting;
@@ -24,5 +25,10 @@ public class SampleAlgorithms {
         algoDemo = new BallSorterInsertionSort();
         algoDemo.demo();
         System.out.println("*********** END INSERTION SORT ALGORITHM **********");
+        
+        System.out.println("*********** DEMO BINARY SEARCH ALGORITHM **********");
+        algoDemo = new BinarySearch();
+        algoDemo.demo();
+        System.out.println("*********** END BINARY SEARCH ALGORITHM **********");
     }
 }
